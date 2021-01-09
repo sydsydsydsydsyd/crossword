@@ -117,7 +117,6 @@ class CrosswordCreator():
                 # remove the word from the variable's domain
                 self.domains[var].remove(w)
 
-
     def revise(self, x, y):
         """
         COMPLETE
@@ -263,8 +262,6 @@ class CrosswordCreator():
 
         return True
 
-        #raise NotImplementedError
-
     def order_domain_values(self, var, assignment):
         """
 
@@ -342,7 +339,7 @@ class CrosswordCreator():
         """
 
         COMPLETE
-        
+
         Using Backtracking Search, take as input a partial assignment for the
         crossword and return a complete assignment if possible to do so.
 
